@@ -1,6 +1,6 @@
 {
-  "name": "fix-float",
-  "version": "1.0.0",
+  "name": "fix-floats",
+  "version": "1.0.1",
   "description": "A function which fixes floating-point rounding errors in JavaScript",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TetroGem/fix-float.git"
+    "url": "git+https://github.com/TetroGem/fix-floats.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["fix", "float", "floating-point", "rounding", "error", "javascript", "js", "node", "nodejs", "floating", "point", "numbers", "math", "gui", "qol", "quality-of-life", "floats"],
+  "author": "tetrogem",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TetroGem/fix-float/issues"
+    "url": "https://github.com/TetroGem/fix-floats/issues"
   },
-  "homepage": "https://github.com/TetroGem/fix-float#readme"
+  "homepage": "https://github.com/TetroGem/fix-floats#readme"
 }
