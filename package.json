@@ -1,6 +1,6 @@
 {
   "name": "fix-floats",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A function which fixes floating-point rounding errors in JavaScript",
   "main": "index.mjs",
   "scripts": {

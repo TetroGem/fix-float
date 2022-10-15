@@ -30,6 +30,7 @@ export default function fixFloat(float, decimals) {
 function predictDecimals(float) {
 	// this implementation is based on the one from the "js-floating-point" npm package
 	const floatStr = `${float}`;
+	if(floatStr.length < 19) return undefined; // if the float isn't at max precision, it's probably not an error
 	const match = /^\d*\.(?:(\d*?)([0|9]*\d))$/gm.exec(floatStr);
 	if(!match) return undefined; // no floating-point error
 	const [ _, significant ] = match;
