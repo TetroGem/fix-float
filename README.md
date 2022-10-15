@@ -1,4 +1,4 @@
-# fix-float
+# fix-floats
 **A function which fixes floating-point rounding errors in JavaScript**
 
 Importing fixFloat:
